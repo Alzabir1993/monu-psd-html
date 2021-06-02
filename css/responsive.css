@@ -1,0 +1,148 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+	
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.main-menu ul li {
+	margin-left: 25px;
+}
+.feature-area {
+	margin-top: 0px;
+	padding-top:50px;
+}
+.single-slider h2 {
+	font-size: 40px;
+}
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	.footer-menu{
+		float:left;
+	}
+	.feature-area {
+	margin-top: 0px;
+	padding-top:50px;
+}
+.single-slider h2 {
+	font-size: 35px;
+}
+.about-text .btn {
+  text-align: center;
+}
+
+.about-img img {
+    margin-top: 14px;
+}
+.subscribe-form input {
+    width: 22%;
+   
+}
+.subscribe-form button {
+    padding: 10px 24px;
+}
+
+.news-title h4 a {
+    font-size: 12px;
+}
+
+.news-title span {
+    font-size: 10px;
+    margin-top: -8px;
+    display: block;
+    color: #fff;
+}
+.news-title {
+    padding-left: 5px;
+}
+.footer-link li {
+    line-height: 20px;
+    width: 100%;
+}
+.footer-menu ul:last-child li{
+	margin-left: 0px;
+}
+.feature-area {
+    margin-top: 0px;
+    padding-top: 50px;
+    z-index: 9;
+}
+.header-area {
+    padding: 20px 50px;
+}
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+	.footer-menu{
+		float:left;
+	}
+	.feature-area {
+	margin-top: 0px;
+	padding-top:50px;
+}
+.single-slider h2 {
+	font-size: 30px;
+}
+.about-img img {
+    margin-top: 14px;
+}
+.about-text p {
+    margin-bottom: 20px;
+   
+}
+.subscribe-form input {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.pricint-item {
+    width: 75%;
+    margin-bottom: 15px;
+}
+.blog-content {
+    margin-bottom: 15px;
+}
+.blog-content p {
+    margin-bottom: 15px;
+}
+.testimonial-item {
+    padding: 60px 20px;
+}
+.footer-menu ul:last-child li{
+	margin-left: 0px;
+}
+.copyright-text {
+    text-align: center;
+}
+.footer-menu {
+    float: none;
+}
+.footer-widget {
+    text-align: center;
+}
+
+.feature-area {
+    margin-top: 0px;
+    padding-top: 50px;
+    z-index: 9;
+}
+.header-area {
+    padding: 20px 50px;
+}
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ .footer-menu{
+		float:left;
+	}
+	
+}
